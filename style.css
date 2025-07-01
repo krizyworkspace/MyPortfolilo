@@ -372,3 +372,8 @@ footer {
     height: 15px;
   }
 }
+@media (max-width: 420px) {
+.hero-container {
+    flex-direction: row; 
+  }
+}
