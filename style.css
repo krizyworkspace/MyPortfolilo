@@ -379,30 +379,16 @@ footer {
   }
 
   #navbar {
-    padding: 8px 0;
-  }
-.logo{
-  display:none;
-}
-  #navbar ul {
-    flex-direction: column;
+    padding: 8px 0; 
     align-items: flex-start;
-    padding: 0;
   }
-
-  #navbar li {
-    width: 100%;
-    margin: 0;
+  
+  .logo{
+    margin-left: -270px;
   }
-
-  #navbar a {
-    font-size: 18px;
-    padding: 8px 10px;
-    margin-right: 0;
-    display: block;
-    width: 100%;
-  }
-
+.nav-links{
+display:none;
+} 
   #welcome-section h1 {
     font-size: 2em;
     margin-left: 0;
@@ -412,17 +398,23 @@ footer {
   .project-tile {
     margin: 10px 0;
     padding: 12px;
-    font-size: 1em;
+    font-size: 1.2em;
   } 
   .hero-image {
   width: 250px;
   height: 250px; 
 }
-  .image-container,
-  .enlarge-on-hover {
-    width: 100% important;
-    max-width: 95vw important;
-    height: auto important;
+.hero-content h1 {
+  font-size: 2rem; 
+}
+.typewriter-effect { 
+  font-size: 1.1rem; 
+} 
+.image-container,
+.enlarge-on-hover {
+  width: 100% important;
+  max-width: 95vw important;
+  height: auto important;
     margin: 0 auto 12px auto;
     border-radius: 12px;
   }
